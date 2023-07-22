@@ -8,3 +8,5 @@ Go to [YamPAD by mattdibi for more details](https://github.com/mattdibi/yampad)
 
 I would like to thank [this video](https://www.youtube.com/watch?v=O_urj-rF3bQ) for giving me the courage to go ahead and make it and [caksoylar](https://github.com/caksoylar) for guiding me on pin mapping.
 
+
+Note: https://deskthority.net/wiki/Arduino_Pro_Micro#Pinout here QMK uses the inner columns with `P*`, ZMK uses the `D*` middle column
