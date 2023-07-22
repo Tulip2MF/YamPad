@@ -4,5 +4,5 @@ The Yampad is a Macropad/Numpad which uses Cherry MX style mechanical switches l
 Go to [YamPAD by mattdibi for more details](https://github.com/mattdibi/yampad)
 
 
-I would like to thank [this video](https://www.youtube.com/watch?v=O_urj-rF3bQ) for giving me the courage to go ahead and make it and @caksoylar for guiding me on pin mapping.
+I would like to thank [this video](https://www.youtube.com/watch?v=O_urj-rF3bQ) for giving me the courage to go ahead and make it and [caksoylar](https://github.com/caksoylar) for guiding me on pin mapping.
 
