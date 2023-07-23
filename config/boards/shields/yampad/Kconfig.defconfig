@@ -2,5 +2,13 @@ if SHIELD_YAMPAD
 
 config ZMK_KEYBOARD_NAME
 	default "yampad"
+if ZMK_BACKLIGHT
 
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
+endif # ZMK_BACKLIGHT
 endif
