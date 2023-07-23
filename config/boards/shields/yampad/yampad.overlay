@@ -5,16 +5,21 @@
 		zmk,matrix_transform = &default_transform;
 		zmk,backlight = &backlight;
 	};
-&pwm0 {
+
+
+
+	default_kscan: kscan {
+		compatible = "zmk,kscan-gpio-matrix";
+		label = "default_kscan";
+
+
+		&pwm0 {
     status = "okay";
     ch0-pin = <13>;
     /* ch0-inverted; */
 };
 
 
-	default_kscan: kscan {
-		compatible = "zmk,kscan-gpio-matrix";
-		label = "default_kscan";
 
 		diode-direction = "col2row";
 
