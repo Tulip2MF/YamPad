@@ -3,7 +3,13 @@
 	chosen {
 		zmk,kscan = &default_kscan;
 		zmk,matrix_transform = &default_transform;
+		zmk,backlight = &backlight;
 	};
+&pwm0 {
+    status = "okay";
+    ch0-pin = <13>;
+    /* ch0-inverted; */
+};
 
 
 	default_kscan: kscan {
